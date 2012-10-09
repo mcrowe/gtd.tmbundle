@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>list</string>
+	</array>
+	<key>foldingStartMarker</key>
+	<string>^[-x] .*$</string>
+	<key>foldingStopMarker</key>
+	<string>^$</string>
+	<key>name</key>
+	<string>List</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>#link</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.list</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>meta.title.list</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^(x) (.*)$\n?</string>
+			<key>name</key>
+			<string>meta.item.completed.list</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>constant.list</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>meta.title.list</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>keyword.list</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^(-) ([^:]*)(: (\d*))?$\n?</string>
+			<key>name</key>
+			<string>meta.item.pending.list</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^  (.*)$\n?</string>
+			<key>name</key>
+			<string>meta.description.list</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^#(.*)$\n?</string>
+			<key>name</key>
+			<string>comment.list</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^(.*):$\n?</string>
+			<key>name</key>
+			<string>entity.name.function.list</string>
+		</dict>
+	</array>
+	<key>repository</key>
+	<dict>
+		<key>link</key>
+		<dict>
+			<key>match</key>
+			<string>(https?|ftp|mailto):\S+?(?=[)&gt;,.':;"]*(\s|$)|$)</string>
+			<key>name</key>
+			<string>markup.underline.link</string>
+		</dict>
+	</dict>
+	<key>scopeName</key>
+	<string>text.plain.list</string>
+	<key>uuid</key>
+	<string>3F6F3D5D-8836-4AD2-847C-7D3A6B905266</string>
+</dict>
+</plist>

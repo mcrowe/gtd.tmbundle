@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Emphasized</string>
+	<key>scope</key>
+	<string>emphasized.mc</string>
+	<key>settings</key>
+	<dict>
+		<key>fontStyle</key>
+		<string>italic</string>
+		<key>foreground</key>
+		<string>#ffffff</string>
+	</dict>
+	<key>uuid</key>
+	<string>CA4B6384-D3B2-4550-ADEF-964809FC149F</string>
+</dict>
+</plist>
